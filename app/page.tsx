@@ -68,11 +68,11 @@ export default function Home() {
             {
               loading && <div className="mt-16 w-full flex-center">
                 <Image
-                  src="loader.svg"
-                  width={50}
-                  height={50}
+                  src="tire.svg"
+                  width={25}
+                  height={25}
                   alt="loader"
-                  className="object-contain"
+                  className="object-contain animate-spin"
                 />
               </div>
             }
